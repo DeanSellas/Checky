@@ -1,0 +1,27 @@
+{
+  "name": "Checky",
+  "version": "0.8",
+  "manifest_version": 2,
+  "description": "Checky",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  
+  "browser_action": {
+    "defualt_icon": "icon.png",
+    "default_title": "Checky"
+  },
+
+  "icons":{
+  	"128":"icon.png"
+  },
+
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}

@@ -2,6 +2,7 @@
 
 (function() {
     
+    //GETS ELEMENTS ON PAGE
     var id, ans, orderlist, letter, letterinputs;
     var index, listindex;
     var match = document.getElementById('matching');
@@ -21,6 +22,7 @@ if(match.checked == true)
     
     console.log("matching");
     
+    //LOOPS MATCHING
     for (listindex = 0; listindex < letter.length; ++listindex) {
 
         ans = letter[listindex].getAttribute('id');

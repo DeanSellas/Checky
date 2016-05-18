@@ -1,6 +1,6 @@
 {
   "name": "Checky",
-  "version": "0.8",
+  "version": "0.82",
   "manifest_version": 2,
   "description": "Checky",
   "background": {
@@ -16,7 +16,7 @@
   },
 
   "icons":{
-  	"128":"icon.png"
+  	"128":"img/icon.png"
   },
 
   "permissions": [
